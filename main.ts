@@ -51,9 +51,9 @@ namespace neuralNetwork {
         } else {
             basic.showLeds(`
                 . . . . .
-                . . . . .
+                # . . . .
                 # # # # #
-                . . . . .
+                # . . . .
                 . . . . .
                 `)
             pins.digitalWritePin(DigitalPin.P2, 0);
